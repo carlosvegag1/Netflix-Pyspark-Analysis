@@ -121,10 +121,10 @@ Abre `notebooks/netflixPysparkAnalysisLocal.ipynb` y ejecuta las celdas en orden
 Si prefieres explorar el análisis sin necesidad de ejecutar código, puedes acceder aquí:  
 
 📄 **Versión en HTML**  
-🔗 **[Netflix-Data-Cleaning.html](https://carlosvegag1.github.io/netflix-pyspark-analysis/netflixPysparkAnalysisCollab.html)**  
+🔗 **[Netflix-Pyspark-Analysis.html](https://carlosvegag1.github.io/netflix-pyspark-analysis/netflixPysparkAnalysisCollab.html)**  
 
 📄 **Versión en PDF**  
-🔗 **[Netflix-Data-Cleaning.pdf](https://github.com/carlosvegag1/netflix-pyspark-analysis/blob/main/docs/netflixPysparkAnalysisCollab.pdf)**
+🔗 **[Netflix-Pyspark-Analysis.pdf](https://github.com/carlosvegag1/netflix-pyspark-analysis/blob/main/docs/netflixPysparkAnalysisCollab.pdf)**
 
 ---
 
