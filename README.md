@@ -80,7 +80,7 @@ comparacionDuracion.show(truncate=False)
 ```
 ---
 
-## 🔧 Instalación y Uso
+## 🛠️ Instalación y Uso
 ### Opción Recomendada: Google Colab
 Para ejecutar este análisis de manera eficiente sin preocuparse por la instalación de PySpark en local, se recomienda utilizar Google Colab o entornos en la nube como Kaggle Notebooks.
 
@@ -117,7 +117,7 @@ Abre `notebooks/netflixPysparkAnalysisLocal.ipynb` y ejecuta las celdas en orden
 
 ---
 
-##  Otras formas de visualizar el análisis  
+## 🔎 Otras formas de visualizar el análisis  
 Si prefieres explorar el análisis sin necesidad de ejecutar código, puedes acceder aquí:  
 
 📄 **Versión en HTML**  
