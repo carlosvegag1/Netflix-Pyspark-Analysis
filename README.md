@@ -82,7 +82,7 @@ comparacionDuracion.show(truncate=False)
 ```
 ---
 
-##  Instalación y Uso
+## 🔧 Instalación y Uso
 ### Opción Recomendada: Google Colab
 Para ejecutar este análisis de manera eficiente sin preocuparse por la instalación de PySpark en local, se recomienda utilizar Google Colab o entornos en la nube como Kaggle Notebooks.
 
