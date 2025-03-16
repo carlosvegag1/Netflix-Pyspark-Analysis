@@ -37,7 +37,6 @@ def obtener_fecha_estreno(url):
             return fecha_span[0].text.strip()
     return None
 ```
-🔹Este fragmento permite extraer automáticamente fechas de estreno reales de IMDb, enriqueciendo el dataset más allá de los datos originales.
 
 ### 🎭 Diferenciación entre Películas y Series con Expresiones Regulares
 ```python
@@ -54,7 +53,6 @@ dfLimpio = dfLimpio.withColumn(
     when(dfLimpio.duracion.rlike(regexSeasons), regexp_extract(dfLimpio.duracion, regexSeasons, 1).cast("int"))
 )
 ```
-🔹 Esto permite separar de forma inteligente la duración en minutos (para películas) y el número de temporadas (para series), mejorando la usabilidad de los datos.
 
 ### ⏳ Comparación de Duración Media entre Producciones Individuales y Coproducciones
 ```python
