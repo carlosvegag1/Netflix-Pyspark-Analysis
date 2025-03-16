@@ -83,23 +83,41 @@ comparacionDuracion.show(truncate=False)
 ---
 
 ##  Instalación y Uso
+### 🚀 Opción Recomendada: Google Colab
+Para ejecutar este análisis de manera eficiente sin preocuparse por la instalación de PySpark en local, se recomienda utilizar Google Colab o entornos en la nube como Kaggle Notebooks.
 
-### 1️ Clonar el Repositorio
+#### 🔹 Ejecutar en Google Colab a través de URL:
+1️ **Abrir el siguiente enlace:** [Accede al notebook](https://colab.research.google.com/drive/1lwa51IoB5a79Nwgx5NrCCoG1j-C5KQ_G?usp=sharing)  
+2️ **Ejecutar notebook**
+
+#### 🔹 Ejecutar en Google Colab a través de repositorio:
+
+1 **Cargar el notebook `notebooks/netflixPysparkAnalysisCollab.ipynb` desde el repositorio.**  
+2 **Subir el archivo del dataset y ejecutar las celdas en orden.**
+
+---
+
+###  Opción Alternativa: Ejecución Local (No Recomendada para equipos lentos)
+Si prefieres ejecutar el análisis en local, debes tener en cuenta que PySpark requiere una gran cantidad de recursos y puede ser **muy lento** en equipos sin suficiente capacidad.
+
+#### 1️ Clonar el Repositorio
 ```bash
-git clone https://github.com/carlosvegag1/netflix-data-cleaning.git
+git clone https://github.com/carlosvegag1/netflix-pyspark-analysis.git
 cd netflix-data-cleaning
 ```
-### 2️ Crear un Entorno Virtual e Instalar Dependencias
+#### 2️ Crear un Entorno Virtual e Instalar Dependencias
 ```bash
 python -m venv env
 source env/bin/activate  # (Windows: env\Scripts\activate)
 pip install -r requirements.txt
 ```
-### 3️ Ejecutar el Notebook
+#### 3️ Ejecutar el Notebook
 ```bash
-Abre Jupyter Notebook y ejecuta netflix_data_cleaning.ipynb
 jupyter notebook
 ```
+Abre `notebooks/netflixPysparkAnalysisLocal.ipynb` y ejecuta las celdas en orden. **Nota:** La ejecución en local puede tardar mucho tiempo dependiendo de la máquina.
+
+---
 
 ##  Otras formas de visualizar el análisis  
 Si prefieres explorar el análisis sin necesidad de ejecutar código, puedes acceder aquí:  
