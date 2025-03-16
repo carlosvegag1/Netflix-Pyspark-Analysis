@@ -83,11 +83,11 @@ comparacionDuracion.show(truncate=False)
 ---
 
 ##  Instalación y Uso
-### 🚀 Opción Recomendada: Google Colab
+### Opción Recomendada: Google Colab
 Para ejecutar este análisis de manera eficiente sin preocuparse por la instalación de PySpark en local, se recomienda utilizar Google Colab o entornos en la nube como Kaggle Notebooks.
 
 #### 🔹 Ejecutar en Google Colab a través de URL:
-1️ **Abrir el siguiente enlace:** [Accede al notebook](https://colab.research.google.com/drive/1lwa51IoB5a79Nwgx5NrCCoG1j-C5KQ_G?usp=sharing)  
+1️ **Abrir el siguiente [enlace](https://colab.research.google.com/drive/1lwa51IoB5a79Nwgx5NrCCoG1j-C5KQ_G?usp=sharing):**  
 2️ **Ejecutar notebook**
 
 #### 🔹 Ejecutar en Google Colab a través de repositorio:
