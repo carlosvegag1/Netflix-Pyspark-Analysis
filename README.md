@@ -1,7 +1,7 @@
 # 📺 Análisis de Contenido de Netflix con PySpark
 
 <p align="center">
-<a href="https://github.com/carlosvegag1/Netflix-Data-Cleaning"><img src="https://i.imgur.com/rekbD3q.png" width="80%"></a>
+<a href="https://github.com/carlosvegag1/netflix-pyspark-analysis"><img src="https://i.imgur.com/tdaMvJP.png" width="80%"></a>
 </p>
 
 ## 🎬 Explorando el Catálogo de Netflix con Big Data
