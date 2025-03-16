@@ -21,7 +21,7 @@ Este repositorio contiene un análisis detallado con PySpark, incluyendo:
 Se han utilizado fragmentos de código clave para demostrar la eficiencia y robustez del procesamiento con PySpark.
 
 ---
-## ⚡ Fragmentos Destacados del Código
+## Fragmentos Destacados del Código
 
 ### 📅 Web Scraping para Obtener Fechas de Estreno Reales desde IMDb
 ```python
@@ -39,7 +39,7 @@ def obtener_fecha_estreno(url):
 ```
 🔹Este fragmento permite extraer automáticamente fechas de estreno reales de IMDb, enriqueciendo el dataset más allá de los datos originales.
 
-### ⏳ Diferenciación entre Películas y Series con Expresiones Regulares
+### 🎭 Diferenciación entre Películas y Series con Expresiones Regulares
 ```python
 from pyspark.sql.functions import regexp_extract, when
 
@@ -56,7 +56,7 @@ dfLimpio = dfLimpio.withColumn(
 ```
 🔹 Esto permite separar de forma inteligente la duración en minutos (para películas) y el número de temporadas (para series), mejorando la usabilidad de los datos.
 
-### 🎭 Comparación de Duración Media entre Producciones Individuales y Coproducciones
+### ⏳ Comparación de Duración Media entre Producciones Individuales y Coproducciones
 ```python
 from pyspark.sql.functions import split, explode, avg, round
 
@@ -82,32 +82,32 @@ comparacionDuracion.show(truncate=False)
 ```
 ---
 
-## 🔧 Instalación y Uso
+##  Instalación y Uso
 
-### 1️⃣ Clonar el Repositorio
+### 1️ Clonar el Repositorio
 ```bash
 git clone https://github.com/carlosvegag1/netflix-data-cleaning.git
 cd netflix-data-cleaning
 ```
-### 2️⃣ Crear un Entorno Virtual e Instalar Dependencias
+### 2️ Crear un Entorno Virtual e Instalar Dependencias
 ```bash
 python -m venv env
 source env/bin/activate  # (Windows: env\Scripts\activate)
 pip install -r requirements.txt
 ```
-### 3️⃣ Ejecutar el Notebook
+### 3️ Ejecutar el Notebook
 ```bash
 Abre Jupyter Notebook y ejecuta netflix_data_cleaning.ipynb
 jupyter notebook
 ```
 
-## 🔎 Otras formas de visualizar el análisis  
+##  Otras formas de visualizar el análisis  
 Si prefieres explorar el análisis sin necesidad de ejecutar código, puedes acceder aquí:  
 
-1️⃣ 📄 **Versión en HTML**  
+📄 **Versión en HTML**  
 🔗 **[Netflix-Data-Cleaning.html](https://carlosvegag1.github.io/netflix-data-cleaning/netflix_analysis.html)**  
 
-2️⃣ 📄 **Versión en PDF**  
+📄 **Versión en PDF**  
 🔗 **[Netflix-Data-Cleaning.pdf](https://github.com/carlosvegag1/netflix-data-cleaning/blob/main/docs/netflix_analysis.pdf)**
 
 ---
@@ -124,7 +124,7 @@ Para más información sobre el dataset y otros proyectos de limpieza de datos, 
 ### 🤝 Compalte
 Este proyecto ha sido desarrollado como parte de mi formación en **Ciencia de Datos** con PySpark. Si tienes sugerencias o quieres contribuir, ¡serás bienvenido!
 
-**⭐ Si te resulta útil, no olvides darle una estrella al repositorio. 🚀**
+**⭐ Si te resulta útil, no olvides darle una estrella al repositorio.**
 
 ### 📬 Contacto
 📌 **LinkedIn:** [Carlos Vega González](https://www.linkedin.com/in/carlos-vega-gonzalez/)  
